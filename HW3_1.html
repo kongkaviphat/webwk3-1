@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>ข้อ 1 จงเขียน HTML สร้างฟอร์ม จากสไลด์ “ควรใช้ input type ใด?”</h2>
+            <from>
+                <p>ข้อ 1.
+                <label for="ชื่อเต็ม/ย่อของสาขาวิชา" &nbsp;>ชื่อเต็ม/ย่อของสาขาวิชา:</label>
+                <input type="text"><br>
+                </p>
+                <p>ข้อ 2.
+                    <label for="จำนวนเงินที่จะโอน" &nbsp;>จำนวนเงินที่จะโอน:</label>
+                    <input type="numer" min="1" step="any" ><br>
+                </p>
+                <p>ข้อ 3.
+                    อาหารที่ชื่นชอบ 5 ชนิดที่ชื่นชอบจากมากไปน้อย<br>
+                    <label for="อาหารที่ชื่นชอบ 5 ชนิดที่ชื่นชอบจากมากไปน้อย" &nbsp;>อาหารที่ชื่นชอบชนิดที1 :</label>
+                    <input type="text"/><br>
+                    <label for="อาหารที่ชื่นชอบ 5 ชนิดที่ชื่นชอบจากมากไปน้อย" &nbsp;>อาหารที่ชื่นชอบชนิดที2 :</label>
+                    <input type="text"/><br>
+                    <label for="อาหารที่ชื่นชอบ 5 ชนิดที่ชื่นชอบจากมากไปน้อย" &nbsp;>อาหารที่ชื่นชอบชนิดที3 :</label>
+                    <input type="text"/><br>
+                    <label for="อาหารที่ชื่นชอบ 5 ชนิดที่ชื่นชอบจากมากไปน้อย" &nbsp;>อาหารที่ชื่นชอบชนิดที4 :</label>
+                    <input type="text"/><br>
+                    <label for="อาหารที่ชื่นชอบ 5 ชนิดที่ชื่นชอบจากมากไปน้อย" &nbsp;>อาหารที่ชื่นชอบชนิดที5 :</label>
+                    <input type="text"/><br>
+                </p>
+                <p>ข้อ 4.
+                    <label for="ค่าไฟฟ้า 3 เดือนที่ผ่านมา" &nbsp;>ค่าไฟฟ้า 3 เดือนที่ผ่านมา:</label>
+                    <input type="month" id="ค่าไฟฟ้า" name="ค่าไฟฟ้า 3 เดือนที่ผ่านมา:">
+                </p>
+                <p>ข้อ 5.
+                    <label for="รหัสบัตรประชาชน" &nbsp;>รหัสบัตรประชาชน:</label>
+                    <input type="text" pattern="[0-9]{13}" required>
+                </p>
+                <p>ข้อ 6.
+                    <label for="ความพึงพอใจ" &nbsp;>ความพึงพอใจของหนังสือเล่มนี้:</label>
+                    <input type="radio" name="ความพึงพอใจ" value="ชอบมาก">
+                    <label for="ชอบมาก">ชอบมาก</label>
+                    <input type="radio" name="ความพึงพอใจ" value="ปกติ">
+                    <label for="ปกติ"> ปกติ</label>
+                    <input type="radio" name="ความพึงพอใจ" value="ไม่ชอบ">
+                    <label for="ไม่ชอบ">ไม่ชอบ</label>
+                </p>
+                <p>ข้อ 7.
+                    <label for="อาการป่วย" &nbsp;>อาการป่วย:</label><br>
+                    <textarea cols="30" rows="3"></textarea> <br>
+                </p>
+                <p>ข้อ 8.
+                    <label for="วัคซีน" &nbsp;>ในช่วง 3 เดือนที่ผ่านมา เคยได้รับวัคซีนหรือไม่:</label><br>
+                    <input type="radio" name="วัคซีน" value="เคย">
+                    <label for="เคย">เคย</label>
+                    <input type="radio" name="วัคซีน" value="ไม่เคย">
+                    <label for="ไม่เคย"> ไม่เคย</label>
+                </p>
+                <p>ข้อ 9.
+                    <label for="รหัสผ่าน" &nbsp;>รหัสผ่าน:</label>
+                    <input type="password" placeholder="รหัสผ่าน">
+                </p>
+                <p>ข้อ 10.
+                    <label for="เวลาเริ่มเข้าเรียนและสิ้นสุด" &nbsp;> เวลาเริ่มเข้าเรียนและสิ้นสุด</label><br>
+                    <label for="เวลาเริ่มเข้าเรียน" &nbsp;>เวลาเริ่มเข้าเรียน:</label>
+                    <input type="time"/> 
+                    <label for="สิ้นสุดการเรียน" &nbsp;>สิ้นสุดการเรียน:</label>
+                    <input type="time"/><br>
+                </p>
+                <p>ข้อ 11.
+                    <label for="วันเวลาที่ต้องไปพบแพทย์" &nbsp;>วันเวลาที่ต้องไปพบแพทย์:</label>
+                    <input type="datetime-local"/>
+                </p>
+                
+        </from>
+</body>
+</html>
